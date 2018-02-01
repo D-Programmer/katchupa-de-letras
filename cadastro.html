@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro - Katchupa de Letras</title>
+	<link rel="stylesheet" href="css\estiloCAB.css"/>
+	<link rel="stylesheet" href="css\estilocadastro.css"/>
+	<link rel="stylesheet" href="css\rodape.css"/>
+
+	<script language="JavaScript" src="js\estilo.js"></script>
+	<style type="text/css">
+		div#search{
+			margin-left: 73.7%;
+		}
+	</style>
+</head>
+<body onload="preenche();">
+<div id="title">
+	<h1>Katchupa de Letras</h1>
+	
+</div>
+<div id="menu">
+	<ul type="square">
+		<li><a href="index.html">Página inicial</a></li>
+		<li><a href="topcv.html">Top CV</a></li>
+		<li><a href="feedback.html">Feedback</a></li>
+		<li><a href="cadastro.html">Sign Up</a></li>
+		<li><a href="login.html">Log In</a></li>
+	</ul>
+</div>
+<div id="search">
+	<form action="" method="get" >
+		<input type="text" onclick="limpa();" onblur="preenche();" name="palavra"  id="busca" value="">
+		<input type="submit"  value="Pesquisar">
+	</form>	
+</div>
+
+<div id="login-box">
+	<div id="login-box-interno">
+		<div id="login-box-nome">Cadastro no Katchupa de Letras</div>
+		<div id="info">
+			<form action="" method="get">
+				Primeiro Nome:<br>
+				<input type="text2" onclick="limpaUser();" onblur="preencheUser();" name="palavra"  id="uname" value=""><br>	
+				Username ou Email:<br>
+				<input type="text2" onclick="limpaUser();" onblur="preencheUser();" name="palavra"  id="uname" value=""><br>
+				Password:<br>
+				<input type="password" onclick="limpaPass();" onblur="preenchePass();" name="pass"  id="pword" value=""><br>
+				Confirmar password:<br>
+				<input type="password" onclick="limpaPass();" onblur="preenchePass();" name="pass"  id="pword" value=""><br>
+				<input type="checkbox" name="lembrar-senha" id="check"> Notificar-me de novidades!
+				<input type="submit" id="botao" name="log" value="Cadastrar">
+			</form>	
+		</div>
+	</div>
+</div>
+
+<div id="rodape">
+		<div id="menuR">
+			<ul type="square">
+				<li1><a href="cadastro.html">Carregar Letras</a></li1>
+				<li><a href="https:\\facebook.com">Facebook</a></li>
+				<li><a href="feedback.html">Fale conosco</a></li>
+			</ul>
+		</div>
+		<div id="rodapePbaixo">
+			<div id="Pbaixo">
+			<p>Todas as letras são propriedades dos donos.Todas as letras estão disponibilizadas para motivos educacionais e uso proprio apenas.
+			<h5>Copyright © 2018 katchupadeletras.com</h5>
+			</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

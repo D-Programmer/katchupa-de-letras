@@ -1,0 +1,67 @@
+#title2{
+	margin-left: 40%;
+}
+#artist{
+	margin-left: 50%;
+}
+#titleAlbum{
+	margin-left: 42%;
+}
+div#conteudo{
+	width: 80%;
+	position: relative;
+	margin-top: 3%;
+	margin-left: 2%;
+	margin-bottom: 28%;
+}
+
+div#paragrafo{
+	position: relative;
+	line-height:10px;
+}
+div#opcoes{
+	margin:0px;
+	list-style: none;
+}
+div#opcoes li{
+	display: inline;
+	text-transform: uppercase;
+	padding: 6px 10px;
+	display: inline-block;
+	margin-left: 12%;
+	margin-right: 10%;
+}
+div#tops li{
+	text-transform: lowercase;
+	display: block;
+	line-height: 0%;
+	font-style: italic;
+}
+div#align li{
+	display: inline-block;
+	margin-left: 11.8%;
+	margin-right: 0%;	
+}
+div#align li2{
+	margin-left: 23.8%;
+	text-transform: lowercase;
+	font-style: italic;
+}
+div#align2 li{
+	display:block;
+	margin-left: 50%;
+}
+h3{
+	margin-left:50%;
+}
+i{
+	font-size: 75%;
+	color: grey;
+}
+h3 Singles{
+	margin-left: 68%;
+}
+
+#letter{
+	margin-left: 45%;
+}

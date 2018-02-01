@@ -1,0 +1,19 @@
+#conteudo{
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-bottom: 20%;
+}
+#feed{
+	width: 800px;
+	height: 300px;
+	position: relative;
+
+}
+#botaofeed{
+	position: relative;
+	width: 130px;
+	float: right;
+	margin-right: 254px;
+	margin-top: 0px;
+
+}
