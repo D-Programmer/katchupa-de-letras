@@ -3,6 +3,9 @@ body{
 }
 #rodape{
 	border-top: 0.0px #606060 solid;
+	bottom 0;
+	right 0;
+	left 0;
 
 }
 /*MENU*/
